@@ -1,4 +1,4 @@
-<h1> A Simple Planetary Gearset Interactive Simulator</h1>
+<h1> Planetary Gearset Interactive Simulator</h1>
 by Juan Pablo Amorocho and the OER Lab for Centennial College.
 
 This simulates the physics of a planteray gearset with adjustable properties such as:
