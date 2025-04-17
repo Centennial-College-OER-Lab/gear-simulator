@@ -36,7 +36,7 @@ public class MovementButtons : MonoBehaviour
             {
                 currentValue += targetValue * speed * Time.deltaTime;
             }
-            Debug.Log(currentValue);
+            //Debug.Log(currentValue);
             planetarySystem.SetSystemSpeed(currentValue, true);
         }
     }

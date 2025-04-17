@@ -88,7 +88,7 @@ public class PlanetGearGenerator : MonoBehaviour
     {
         if (gearInScene != null)
         {
-            Debug.Log(Vector3.Scale(mesh_gear.bounds.size, gearInScene.transform.localScale));
+           // Debug.Log(Vector3.Scale(mesh_gear.bounds.size, gearInScene.transform.localScale));
             return Vector3.Scale(mesh_gear.bounds.size, gearInScene.transform.localScale);
         }
         return new(0, 0, 0);

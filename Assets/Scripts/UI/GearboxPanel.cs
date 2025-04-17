@@ -184,7 +184,7 @@ public class GearboxPanel : MonoBehaviour
         }
         else
         {
-            Debug.Log("Invalid Value");
+            //Debug.Log("Invalid Value");
             return "0";
         }
     }

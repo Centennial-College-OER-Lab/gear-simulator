@@ -42,7 +42,7 @@ public abstract class RotatingSystem : MonoBehaviour
         {
             if (SignificantlyDifferent(Reciever.Speed, speed))
             {
-                Debug.Log($"{Reciever.name} blocks chain. ");
+                //Debug.Log($"{Reciever.name} blocks chain. ");
             }
         }
         else
@@ -77,7 +77,7 @@ public abstract class RotatingSystem : MonoBehaviour
     }
     public virtual void SetSystemSpeed(float normalizedValue, bool byButton = false)
     {
-        Debug.Log($"RotatingSystem.SetSystemSpeed({normalizedValue}) drivingGear: {drivingGear}");
+        //Debug.Log($"RotatingSystem.SetSystemSpeed({normalizedValue}) drivingGear: {drivingGear}");
         if ((normalizedValue != previousAxis || byButton) && drivingGear != null)
         {
             isMoving = true;
